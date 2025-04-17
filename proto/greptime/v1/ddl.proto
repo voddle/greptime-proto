@@ -257,7 +257,7 @@ message UnsetInverted {
 }
 
 enum SkippingIndexType {
-    BLOOM_FILTER = 0;
+    CUCKOO_FILTER = 0;
 }
 
 message SetSkipping {
