@@ -233,7 +233,7 @@ enum Analyzer {
 
 enum FulltextBackend {
     TANTIVY = 0;
-    BLOOM = 1;
+    CUCKOO = 1;
 }
 
 message SetFulltext {
